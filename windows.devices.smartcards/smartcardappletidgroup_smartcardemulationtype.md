@@ -10,10 +10,10 @@ public Windows.Devices.SmartCards.SmartCardEmulationType SmartCardEmulationType 
 # Windows.Devices.SmartCards.SmartCardAppletIdGroup.SmartCardEmulationType
 
 ## -description
-Sets or gets the type of smart card to which the applet IDs apply, host card or UICC.
+Sets or gets the type of smart card to which the applet IDs apply.
 
 ## -property-value
-The type of smart card to which the applet IDs apply, host card or UICC.
+The type of smart card to which the applet IDs apply.
 
 ## -remarks
 

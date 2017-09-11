@@ -23,7 +23,7 @@ The list of applet IDs.
 The category of smart card to which the applet IDs apply, payment card or other.
 
 ### -param emulationType
-The type of smart card to which the applet IDs apply, host card or UICC.
+The type of smart card to which the applet IDs apply.
 
 ## -remarks
 
