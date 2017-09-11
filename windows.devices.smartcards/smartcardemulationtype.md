@@ -10,17 +10,17 @@ public enum Windows.Devices.SmartCards.SmartCardEmulationType : int
 # SmartCardEmulationType
 
 ## -description
-Defines the mechanism by which the device emulates a smart card.
+Defines the mechanism by which the device emulates a smart card. Reflects the secure element type of the unit which processes application protocol data unit (APDU) commands.
 
 ## -enum-fields
 ### -field Host:0
-The device emulates a smart card by forwarding application protocol data unit (APDU) commands to the host application, which responds back.
+The device routes APDU commands to the host application.
 
 ### -field Uicc:1
-The device emulates a smart card by forwarding the application protocol data unit (APDU) commands directly to the physical UICC card. The UICC card is more commonly referred to as the SIM card.
+The device routes APDU commands to the UICC card. The UICC card is more commonly referred to as the SIM card.
 
 ### -field EmbeddedSE:2
-The device emulates a smart card by forwarding the application protocol data unit (APDU) commands to an embedded SE reader.
+The device routes APDU commands to the Embedded Secure Element.
 
 
 ## -remarks
